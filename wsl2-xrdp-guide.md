@@ -62,13 +62,11 @@ You should now be ready to connect!!
 
 <img width="305" alt="Remote Desktop Connection window" src="https://user-images.githubusercontent.com/99351305/162492458-ecf6d128-defd-4bb5-9ffe-168f97f5ae71.PNG">
 
-10. Click on 'Connect' and you will be brought to an xrdp login page:
+10. Click on 'Connect'. You will be prompted to accept the certificate that is already located on your system. Do so to continue. Afterwards you will be brought to an xrdp login page:
 
 <img width="352" alt="xrdp-login" src="https://user-images.githubusercontent.com/99351305/162492883-a7c3a0f9-2edb-4c0d-9413-1de6d297f873.PNG">
 
-11. You will be prompted to accept the certificate that is already located on your system. Do so to continue.
-
-12. Enter your Ubuntu user's password and click 'Ok'.
+11. Enter your Ubuntu user's password and click 'Ok'.
 
 You should should now be able to see your Ubuntu desktop!
 
