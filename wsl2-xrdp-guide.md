@@ -4,6 +4,8 @@ The saga continues! If you'd like to be able to use Remote Desktop Connection (m
 
 `sudo apt-get install -y xfce4 xfce4-goodies`
 
+When prompted for a desktop manager, select *LightDM*.
+
 (feel free to use a different DE if you want)
 
 2. Run each of the lines below separately:
