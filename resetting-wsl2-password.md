@@ -4,7 +4,7 @@ If you are having to run a command with `sudo ...`, and you've realized that you
 
 ### 1. Open a Powershell or Command Prompt window. **Not an Ubuntu terminal.**
 
-### 2. Run `wsl -l` to get a list your installed WSL distributions.
+### 2. Run `wsl -l` to get a list of your installed WSL distributions.
 
 ### 3. Locate the distribution that has the user you are trying to change the password for.
 
