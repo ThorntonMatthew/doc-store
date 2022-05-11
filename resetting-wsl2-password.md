@@ -14,11 +14,11 @@ If you are having to run a command with `sudo ...`, and you've realized that you
 
 4. Run `wsl -d <Your-Distribution-Name> -u root` where `<Your-Distribution-Name>` is your distro name. The name is case-sensitive.
 
-  Ex: `wsl -d Ubuntu -u root`
+    **Ex:** `wsl -d Ubuntu -u root`
 
 5. You are now logged into your distribution as the `root` user. Run `passwd <the-username-of-the-account-you-are-changing-the-password-for>`
 
-  Ex: `passwd matt`
+    **Ex:** `passwd matt`
 
 6. Enter your new password twice.
 
