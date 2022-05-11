@@ -12,7 +12,7 @@ If you are having to run a command with `sudo ...`, and you've realized that you
 
     The name of my distribution is `Ubuntu`. Yours may be `Ubuntu-20.04` or something different.
 
-4. Run `wsl -d <Your-Distribution-Name> -u root` where `<Your-Distribution-Name>` is your distro name. The name is case-sensitive.
+4. Run `wsl -d <Your-Distribution-Name> -u root` where `<Your-Distribution-Name>` is your distribution's name. The name is case-sensitive.
 
     **Ex:** `wsl -d Ubuntu -u root`
 
