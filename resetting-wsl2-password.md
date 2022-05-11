@@ -6,7 +6,7 @@ If you are having to run a command with `sudo ...`, and you've realized that you
 
 2. Run `wsl -l` to get a list your installed WSL distributions.
 
-3. Locate the distribution that has the user you are trying to change the password of.
+3. Locate the distribution that has the user you are trying to change the password for.
 
     <img width="213" alt="wsl-l" src="https://user-images.githubusercontent.com/99351305/167859579-4d612da3-3afa-4cad-b337-e2cc418b9ef2.PNG">
 
