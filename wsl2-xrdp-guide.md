@@ -75,5 +75,34 @@ You should should now be able to see your Ubuntu desktop!
 <img width="960" alt="rdp-success" src="https://user-images.githubusercontent.com/99351305/162492998-f6a89eec-ca3f-4dea-aa72-ce52cc146469.PNG">
 
 
+# Accessing the RDP Server After a Restart
 
+If you restart your machine or WSL, you will no longer be able to connect to your RDP server as it will no longer be running. 😱
 
+For ease of starting it back up you can do one of the below steps:
+
+### 1. You want to manually start the RDP server as needed (pick this to save on RAM):
+
+Add this line to your runtime configuration file (`.bashrc`/`.zshrc`/etc):
+
+`alias start-rdp="sudo systemctl enable dbus && sudo /etc/init.d/dbus start && sudo /etc/init.d/xrdp start"`
+
+After reopening the terminal you can then type `start-rdp` whenever you want to run the server.
+
+### 2. You want the RDP server to start whenever you fire up Ubuntu:
+
+Add this to the bottom of your runtime configuration file (`.bashrc`/`.zshrc`/etc):
+
+`sudo systemctl enable dbus && sudo /etc/init.d/dbus start && sudo /etc/init.d/xrdp start && clear`
+
+The RDP server will now attempt to run every time you open a terminal. You will also be asked for your password every time you open a terminal since the above commands contain `sudo`. 😅
+
+If desired, resolve it with the following:
+
+Run `sudo visudo`
+
+Add the following line to the bottom:
+
+`YOUR-USERNAME ALL=(ALL) NOPASSWD: ALL`
+
+This will make it so you will not be asked for a password whenever using `sudo` for any command. Feel free to replace the last `ALL` with the paths to the executables in the command you've added to your runtime configuration if you want to be more granular about it.
