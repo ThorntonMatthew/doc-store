@@ -1,6 +1,6 @@
 # Limiting WSL2 Memory Usage
 
-1. Create a file in your `%UserProfile%` folder on Windows named `.wslconfig`. Any configurations added to this file will be applied to all WSL distributions you have installed.
+1. Create a file in your `%UserProfile%` folder on __Windows__ named `.wslconfig`. Any configurations added to this file will be applied to all WSL distributions you have installed.
 2. Open `.wslconfig` and add the following settings:
 ```
   [wsl2]
