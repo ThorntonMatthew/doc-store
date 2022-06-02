@@ -2,6 +2,10 @@
 
 The saga continues! If you'd like to be able to use Remote Desktop Connection (mstsc.exe) to connect to your WSL2 Ubuntu environment and run GUI applications, you can follow these steps:
 
+0. Update your Ubuntu system's packages before proceeding
+
+`sudo apt-get update && sudo apt-get upgrade -y`
+
 1. Install a Desktop Environment (DE)
 
 `sudo apt-get install -y xfce4 xfce4-goodies`
